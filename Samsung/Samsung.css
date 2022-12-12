@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: auto;
+    width: 100%;
+}
+
+#content1 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+#content1 ul li {
+    list-style: none;
+    display: inline;
+}
+#content1 ul a {
+    text-decoration: none;
+    color: black;
+}
+#content1 .logo {
+    width: 10%;
+    margin-left: 30px;
+}
+#content1 .logo img {
+    height: 25px;
+    width: 114px;
+}
+#content1 .navbar {
+    width: 65%;
+    text-align: center;
+    margin-top: -37px;
+    margin-right: 50px;
+
+}
+#content1 .nav1 {
+    display: flex;
+    width: 16%;
+    text-align: end;
+    margin-top: 2px;
+}
+#content1 .nav2 {
+    margin-top: 2px;
+    font-size: 18px;
+    width: 10%;
+    text-align: center;
+    color: black;
+}
+#content1 .navbar ul li {
+    margin: 8px;
+}
+#content1 .navbar ul a:hover {
+    font-size: 18px;
+}  
+
+
+
+/* -------------------------------------------Section:2------------------------------------------------------ */
+
+#content2 img {
+    width: 100%;
+    height: 646px;
+}
+
+#content2 .carousel-item {
+    position: relative;
+}
+#content2 .zfold {
+    position: absolute;
+    top: 200px;
+    margin-left: 185px;
+    color: black;
+}
+#content2 .zfold button {
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* -------------------------------------------Section:3------------------------------------------------------ */
+
+#content3 {
+    height: auto;
+    width: 100%;
+    background-color: #f5f3f3;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+.mobile {
+    text-align: center;
+    font-size: 25px;
+}
+.navbar1 {
+    text-align: center;
+    margin: 15px;
+}
+.navbar1 ul li {
+    display: inline;
+    padding: 20px;
+}
+.navbar1 a {
+    text-decoration: none;
+}
+ .navbar1 button {
+    border: 0;
+    background-color:#f5f3f3;  
+    font-size: 18px;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+ }
+ .navbar1 button:hover {
+    border: dotted;
+    border-radius: 20px;
+    background-color: white;
+ }
+ a {
+    text-decoration: none;
+    color:black; 
+ }
+
+ .zfold4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: -363px;
+    margin-left: 560px;
+ }
+ .zfold4 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+ }
+
+
+/* ----------------------------------------Section:3 : page1------------------------------------------------- */
+
+.navbar2 {
+    text-align: center;
+}
+.thisweek  {
+    text-align: center;
+}
+.navbar2 ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    color: rgb(54, 53, 53);
+}
+.navbar2 a  {
+    text-decoration: none;
+}
+.navbar2 button {
+    border: 0;
+    background-color: white;  
+    font-size: 18px;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+    color: black;
+}
+#content4 .one {
+    margin-left: 270px;
+}
+#content4 .one img {
+    height: 230px;
+    width: 250px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+#content4 .two img {
+    height: 482px;
+    width: 590px;
+    border-radius: 24px;
+    margin: 20px;
+}
+#content4 .thre img {
+    height: 230px;
+    width: 250px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+#content4 .one .img1 img {
+    height: 230px;
+    width: 250px;
+    border-radius: 24px;
+}
+#content4 .one .img1 .imgc {
+    position: absolute;
+    top: 156px;
+    text-align: center;
+    margin-left: 53px;
+    font-weight: 600;
+    line-height: 4px;
+}
+#content4 .one .img1 .imgc button {
+    height: 34px;
+    width: 78px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#content4 .one .img1 .imgc button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+#content4 .one .img1 img:hover {
+    transition: 0.5s all ease;
+    height: 235px;
+    width: 255px;
+}
+#content4 .one .img2 img:hover {
+    transition: 0.5s all ease;
+    height: 235px;
+    width: 255px;
+}
+#content4 .one .img2 .imgc2 {
+    position: absolute;
+    top: 409px;
+    text-align: center;
+    margin-left: 53px;
+    font-weight: 600;
+    line-height: 4px;
+}
+#content4 .one .img2 .imgc2 button {
+    height: 34px;
+    width: 78px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#content4 .one .img2 .imgc2 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+#content4 .two .twoc {
+    position: absolute;
+    top: 345px;
+    text-align: center;
+    margin-left: 164px;
+    line-height: 23px;
+    font-size: 21px;
+    font-weight: 500;
+}
+#content4 .two .twoc button {
+    height: 41px;
+    width: 110px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#content4 .two .twoc button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+
+#content4 .thre .img11 .imgc11 {
+    position: absolute;
+    top: 162px;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 600;
+    line-height: 4px;
+}
+#content4 .thre .img11 .imgc11 button {
+    height: 34px;
+    width: 78px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#content4 .thre .img11 .imgc11 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+#content4 .thre .img22 .imgc22 {
+    position: absolute;
+    top: 412px;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 600;
+    line-height: 4px;
+}
+#content4 .thre .img22 .imgc22 button {
+    height: 34px;
+    width: 78px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+#content4 .thre .img22 .imgc22 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+
+/* ----------------------------------------Section:3 : page1------------------------------------------------- */
+
+
+#content4 .mobile1 .one2 img {
+    height: 520px;
+    width: 470px;
+    margin-left: 283px;
+    border-radius: 65px;
+    margin-top: 0px;
+    padding: 15px;
+}
+.mobile2 .one21 {
+    margin-bottom: 15px;
+}
+.mobile2 img {
+    height: 237px;
+    width: 300px !important;
+    border-radius: 40px;
+    margin-top: 16px;
+}
+
+.mobile3  img {
+    height: 237px;
+    width: 300px !important;
+    border-radius: 40px;
+    margin-top: 16px;
+}
+.mobile3 .one31 {
+    margin-bottom: 15px;
+}
+.mobile3 {
+    margin-left: -135px;
+}
+
+.mobile1 .one2 .imgcont1 {
+    color: black;
+    margin-left: 297px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: -434px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.mobile1 .one2 .imgcont1 button {
+    height: 35px;
+    width: 107px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;   
+}
+.mobile1 .one2 .imgcont1 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s all ease;
+}
+
+
+
+/* ----------------------------------------Section:4--------------------------------------------------------- */
+
+
+.tvvbar {
+    text-align: center;
+}
+.tvav  {
+    text-align: center;
+}
+.tvvbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+.tvvbar a  {
+    text-decoration: none;
+}
+.tvvbar button {
+    border: 0;
+    background-color: white;  
+    font-size: 18px;
+    font-family: 'SamsungOne',arial,sans-serif;
+    font-weight: 600;
+    color: black;
+}

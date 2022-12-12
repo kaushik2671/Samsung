@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samsung.com/in</title>
+  <link rel="stylesheet" href="Samsung.css">
+  <!-- jquerey CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
+  <!-- copy cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- owl carousel cdn (script) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- owl carousel css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".bxslider").bxSlider({
+        mode: "fade",
+        auto: true,
+        autoControls: false,
+        stopAutoOnClick: true,
+        pager: false,
+      });
+    }); 
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        items: 4,
+        loop: false,
+        center: true,
+        dots: false,
+        margin: 10,
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        startPosition: '0',
+        merge: false,
+        responsive: {
+          678: {
+            mergeFit: true
+          },
+          1000: {
+            mergeFit: false
+          }
+        }
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <header id="content1">
+    <div class="logo"><img src="images/slogo.png" alt=""></div>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <a href="#content3">
+            <li>Mobile</li>
+          </a>
+          <a href="#content5">
+            <li>TV & AV</li>
+          </a>
+          <a href="#content6">
+            <li>Home Appliences</li>
+          </a>
+          <a href="#">
+            <li>Laptop & Monitors</li>
+          </a>
+          <a href="#">
+            <li>Displays</li>
+          </a>
+          <a href="#">
+            <li>Accessories</li>
+          </a>
+          <a href="#content4">
+            <li>Smartthings</li>
+          </a>
+          <a href="#">
+            <li>Offers</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav1">
+      <ul>
+        <a href="">
+          <li style="padding: 10px;">Support</li>
+        </a>
+        <a href="">
+          <li>For Business</li>
+        </a>
+      </ul>
+    </div>
+    <div class="nav2">
+      <a href=""><span class="fa-solid fa-magnifying-glass" style="padding-right:8px; color: black;"></span></a>
+      <a href=""><span class="fa-solid fa-cart-shopping" style="padding-right:8px;color: black;"></span></a>
+      <a href=""><span class="fa-regular fa-user" style="color: black     ;"></span></a>
+    </div>
+  </header>
+  <section id="content2">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <video autoplay muted loop>
+            <source src="images/ZFOLD.mp4" class="d-block w-100" alt="...">
+          </video>
+          <div class="zfold">
+            <h1>Z Fold4/Flip4 </h1>
+            <p>Staring 89900*</p>
+            <button>BuyNow</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/sbanner2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/sbanner1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/sbannertablet.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/galaxybook1.webp" class="d-block w-100" alt="...">
+          <div class="zfold">
+            <h1>GalaxyBook 2 Pro 360 </h1>
+            <p>Staring 89900*</p>
+            <button>BuyNow</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+
+
+  </section>
+  <section id="content3">
+    <div class="mobile">
+      <h1>Mobile & Computing</h1>
+    </div>
+
+    <div class="navbar1">
+      <ul>
+        <button>
+          <li><a href="#zero" style="color: black;">Galaxy Z Fold4</a></li>
+        </button>
+        <button>
+          <li><a href="#one" style="color: black;">Galaxy Z Flip4</a></li>
+        </button>
+        <button>
+          <li><a href="#two" style="color: black;">Galaxy Watch5/Watch5Pro</a></li>
+        </button>
+        <button>
+          <li><a href="#three" style="color: black;">Galaxy A73 5G</a></li>
+        </button>
+        <button>
+          <li><a href="#four" style="color: black;">Galaxy Book2 Series</a></li>
+        </button>
+      </ul>
+    </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item" data-hash="zero" data-merge="6">
+        <img src="images/zfold4.webp" alt="" style="
+                width: 40%;
+                height: 575px;
+                margin: auto;
+            " />
+        <div class="zfold4">
+          <h1>Z Fold4/Flip4 </h1>
+          <p>Staring 89900*</p>
+          <button>BuyNow</button>
+        </div>
+      </div>
+      <div class="item" data-hash="one" data-merge="6">
+        <img src="images/z-flip4.webp" alt="" style="
+                width: 40%;
+                height: 575px;
+                margin: auto;
+            " />
+      </div>
+      <div class="item" data-hash="two" data-merge="6">
+        <img src="images/section/Watch5_5Pro-2.webp" alt="" style="
+                width: 40%;
+                height: 575px;
+                margin: auto;
+            " />
+      </div>
+      <div class="item" data-hash="three" data-merge="6">
+        <img src="images/a73.webp" alt="" style="
+                width: 40%;
+                height: 575px;
+                margin: auto;
+            " />
+      </div>
+      <div class="item" data-hash="four" data-merge="6">
+        <img src="images/section/Galaxy-Book2-Pro-360-2.webp" alt="" style="
+                width: 40%;
+                height: 575px;
+                margin: auto;
+            " />
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="content4">
+    <div class="thisweek">
+      <h1>This Weeks Highlight</h1>
+    </div>
+    <div class="navbar2">
+      <ul>
+        <button class="btn-dark"><a href="#zero1">
+            <li>Wedding Bundle</li>
+          </a></button>
+        <button class="btn-dark"><a href="#one1">
+            <li>Mobile</li>
+          </a></button>
+        <button class="btn-dark"><a href="#two1">
+            <li>TV</li>
+          </a></button>
+        <button class="btn-dark"><a href="#three1">
+            <li>Appliences</li>
+          </a></button>
+        <button class="btn-dark"><a href="#four1">
+            <li>Galaxy EcoSystem</li>
+          </a></button>
+      </ul>
+    </div>
+
+
+    <div class="owl-carousel owl-theme">
+
+      <!-- section-1 -->
+
+      <div class="item" data-hash="zero1" data-merge="5" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+        <div class="one">
+          <div class="img1"><img src="images/S22ULTRA_330x330.webp" alt="">
+            <div class="imgc">
+              <p>Samsung S22 Ultra</p>
+              <p>Starting ₹ 99999*</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+          <div class="img2"><img src="images/uhdtv.webp" alt="">
+            <div class="imgc2">
+              <p>1m 46cm (58") 4K UHD</p>
+              <p>Starting ₹ 49999*</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+        </div>
+        <div class="two">
+          <img src="images/offersbanner.jpg" alt="">
+          <div class="twoc">
+            <p>Some things are better together</p>
+            <p>Save an extra 5% with <br> Samsung wedding bundles</p>
+            <button>BuyNow</button>
+          </div>
+        </div>
+        <div class="thre">
+          <div class="img11"><img src="images/m13 new.jpg" alt="">
+            <div class="imgc11">
+              <p>Samsung S22 Ultra</p>
+              <p>Starting ₹ 99999*</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+          <div class="img22"><img src="images/refrigerator new.webp" alt="">
+            <div class="imgc22">
+              <p>Samsung S22 Ultra</p>
+              <p>Starting ₹ 99999*</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section 2 -->
+      <div class="item" data-hash="one1" data-merge="5" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+        <div class="mobile1">
+          <div class="one2">
+            <img src="images/S22Bora.webp" alt="">
+            <div class="imgcont1">
+              <p>Samsung Galaxy S22</p>
+              <p>Starting ₹57999*</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+        </div>
+        <div class="mobile2">
+          <div class="one21">
+            <img src="images/Flip3-Small-.webp" alt="">
+          </div>
+          <div class="one22">
+            <img src="images/A535G_Smalltile_.webp" alt="">
+          </div>
+        </div>
+        <div class="mobile3">
+          <div class="one31">
+            <img src="images/M04-128GB_SmallTiles_.webp" alt="">
+          </div>
+          <div class="one32">
+            <img src="images/M32-330x330-21.webp" alt="">
+          </div>
+        </div>
+      </div>
+
+        <!-- section--3 -->
+
+        <div class="item" data-hash="two1" data-merge="5" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+          <div class="one">
+            <div class="img1"><img src="images/S22ULTRA_330x330.webp" alt="">
+              <div class="imgc">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+            <div class="img2"><img src="images/uhdtv.webp" alt="">
+              <div class="imgc2">
+                <p>1m 46cm (58") 4K UHD</p>
+                <p>Starting ₹ 49999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+          </div>
+          <div class="two">
+            <img src="images/offersbanner.jpg" alt="">
+            <div class="twoc">
+              <p>Some things are better together</p>
+              <p>Save an extra 5% with <br> Samsung wedding bundles</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+          <div class="thre">
+            <div class="img11"><img src="images/m13 new.jpg" alt="">
+              <div class="imgc11">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+            <div class="img22"><img src="images/refrigerator new.webp" alt="">
+              <div class="imgc22">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="item" data-hash="three1" data-merge="5" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+          <div class="mobile1">
+            <div class="one2">
+              <img src="images/S22Bora.webp" alt="">
+              <div class="imgcont1">
+                <p>Samsung Galaxy S22</p>
+                <p>Starting ₹57999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+          </div>
+          <div class="mobile2">
+            <div class="one21">
+              <img src="images/Flip3-Small-.webp" alt="">
+            </div>
+            <div class="one22">
+              <img src="images/A535G_Smalltile_.webp" alt="">
+            </div>
+          </div>
+          <div class="mobile3">
+            <div class="one31">
+              <img src="images/M04-128GB_SmallTiles_.webp" alt="">
+            </div>
+            <div class="one32">
+              <img src="images/M32-330x330-21.webp" alt="">
+            </div>
+          </div>
+        </div>
+     
+    
+        <div class="item" data-hash="four1" data-merge="5" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+          <div class="one">
+            <div class="img1"><img src="images/S22ULTRA_330x330.webp" alt="">
+              <div class="imgc">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+            <div class="img2"><img src="images/uhdtv.webp" alt="">
+              <div class="imgc2">
+                <p>1m 46cm (58") 4K UHD</p>
+                <p>Starting ₹ 49999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+          </div>
+          <div class="two">
+            <img src="images/offersbanner.jpg" alt="">
+            <div class="twoc">
+              <p>Some things are better together</p>
+              <p>Save an extra 5% with <br> Samsung wedding bundles</p>
+              <button>BuyNow</button>
+            </div>
+          </div>
+          <div class="thre">
+            <div class="img11"><img src="images/m13 new.jpg" alt="">
+              <div class="imgc11">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+            <div class="img22"><img src="images/refrigerator new.webp" alt="">
+              <div class="imgc22">
+                <p>Samsung S22 Ultra</p>
+                <p>Starting ₹ 99999*</p>
+                <button>BuyNow</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+    </div>
+  </section>
+  <section id="content5">
+    <div class="tvav">
+      <h1>TV & AV</h1>
+    </div>
+    <div class="tvvbar">
+      <ul>
+        <li><a href="#QLED8K"><button class="btn-dark">Neo QLED 8K</button></a></li>
+        <li><a href="#QLED4K"><button class="btn-dark">QLED 4K</button></a></li>
+        <li><a href="#4KUHD"><button class="btn-dark">CRYSTAL 4K UHD</button></a></li>
+        <li><a href="#FRAME"><button class="btn-dark">The Frame</button></a></li>
+      </ul>
+    </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item" data-hash="QLED8K" data-merge="6">
+        <img src="images/section3/Neo_QLED_8K_1440x810 (1).jpg" alt="" style="
+                width: 69%;
+                height: 575px;
+                margin: auto"/>
+      </div>
+      <div class="item" data-hash="QLED4K" data-merge="6">
+        <img src="images/section3/QLED-4K_1440x810.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+      <div class="item" data-hash="4KUHD" data-merge="6">
+        <img src="images/section3/Crystal-4K-43AUE65-1440x810.jpg" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+      <div class="item" data-hash="FRAME" data-merge="6">
+        <img src="images/section3/The_Frame_Bezel_pc.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+    </div>
+  </section>
+  <section id="content6">
+    <div class="tvav">
+      <h1>HOME APPLIANCES</h1>
+    </div>
+    <div class="tvvbar">
+      <ul>
+        <li><a href="#20YEARS"><button class="btn-dark">20 YEARS WARRANTY</button></a></li>
+        <li><a href="#AIR"><button class="btn-dark">AIR PURIFIRE</button></a></li>
+        <li><a href="#AI"><button class="btn-dark">AI ECOBUBBLE</button></a></li>
+        <li><a href="#ECO"><button class="btn-dark">ECCOBUBBLE TOPLOAD</button></a></li>
+        <li><a href="#SPACE"><button class="btn-dark">SPACE MAX</button></a></li>
+      </ul>
+    </div>
+    <div class="owl-carousel owl-theme">
+      <div class="item" data-hash="20YEARS" data-merge="6">
+        <img src="images/section4/Product_Marketing_Banner_1440x810.jpg" alt="" style="
+                width: 69%;
+                height: 575px;
+                margin: auto"/>
+      </div>
+      <div class="item" data-hash="AIR" data-merge="6">
+        <img src="images/section4/Air_Purifier_1440x810.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+      <div class="item" data-hash="AI" data-merge="6">
+        <img src="images/section4/AI_Ecobubble_1440x810.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+      <div class="item" data-hash="ECO" data-merge="6">
+        <img src="images/section4/Top_Load_Ecobubble_1440x810.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+      <div class="item" data-hash="SPACE" data-merge="6">
+        <img src="images/section4/Side_by_Side_Ref_1440x810.webp" alt="" style="
+        width: 69%;
+        height: 575px;
+        margin: auto"/>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
